@@ -1,0 +1,299 @@
+[
+  {
+    "heading": "Course Introduction and Docker Intro",
+    "videoLabels": [
+      "Course Roadmap (overview)",
+      "November 2019 Update!",
+      "Why Docker? Why Now?",
+      "Getting Course Resources (GitHub Repo)",
+      "Course Chat: 35k Students Learning Containers",
+      "YouTube Live Q&A with Bret",
+      "The Big FAQ"
+    ]
+  },
+  {
+    "heading": "The Best Way to Setup Docker for Your OS",
+    "videoLabels": [
+      "Docker Editions: Which Do I Use?",
+      "Installing Docker: The Fast Way",
+      "Windows Docker Options",
+      "Docker for Windows 10 Pro/Ent: Setup and Tips",
+      "Docker for Mac Setup and Tips",
+      "Docker Toolbox for Win7, 8, and 10 Home: Setup and Tips",
+      "Docker for Linux Setup and Tips",
+      "Quiz on Proper Docker Install",
+      "Code or Text Editor for Docker and Compose files",
+      "Terminal Shell and Tab Completion for Docker CLI",
+      "Docker Version Format Change"
+    ]
+  },
+  {
+    "heading": "Creating and Using Containers Like a Boss",
+    "videoLabels": [
+      "Check Our Docker Install and Config",
+      "Starting a Nginx Web Server",
+      "Debrief: What Happens When We Run a Container",
+      "Container VS. VM: It's Just a Process",
+      "Windows Containers: Docker Is No Longer Just Linux",
+      "Assignment: Manage Multiple Containers",
+      "Assignment Answers: Manage Multiple Containers",
+      "Container Quiz 1",
+      "What's Going On In Containers: CLI Process Monitoring",
+      "Getting a Shell Inside Containers: No Need for SSH",
+      "Docker Networks: Concepts for Private and Public Comms in Containers",
+      "FIXME: Change In Official Nginx Image Removes Ping",
+      "Docker Networks: CLI Management of Virtual Networks",
+      "Docker Networks: DNS and How Containers Find Each Other",
+      "Container Quiz 2",
+      "Assignment: Using Containers for CLI Testing",
+      "Assignment Answers: Using Containers for CLI Testing",
+      "FIXME: Bug in alpine affects nslookup",
+      "Assignment: DNS Round Robin Test",
+      "Assignment Answers: DNS Round Robin Test"
+    ]
+  },
+  {
+    "heading": "Container Images, Where To Find Them and How To Build Them",
+    "videoLabels": [
+      "What's In An Image (and What Isn't)",
+      "The Mighty Hub: Using Docker Hub Registry Images",
+      "Images and Their Layers: Discover the Image Cache",
+      "Image Tagging and Pushing to Docker Hub",
+      "Building Images: The Dockerfile Basics",
+      "Building Images: Running Docker Builds",
+      "Building Images: Extending Official Images",
+      "Image Quiz",
+      "Assignment: Build Your Own Dockerfile and Run Containers From It",
+      "Assignment Answers: Build Your Own Dockerfile and Run Containers From It",
+      "Using Prune to Keep Your Docker System Clean (YouTube)"
+    ]
+  },
+  {
+    "heading": "Container Lifetime & Persistent Data: Volumes, Volumes, Volumes",
+    "videoLabels": [
+      "Container Lifetime & Persistent Data",
+      "Persistent Data: Data Volumes",
+      "Shell Differences for Path Expansion",
+      "Persistent Data: Bind Mounting",
+      "Quiz on Persistent Data",
+      "Assignment: Database Upgrades with Named Volumes",
+      "Assignment Answers: Database Upgrades with Named Volumes",
+      "Assignment: Edit Code Running In Containers With Bind Mounts",
+      "Assignment Answers: Edit Code Running In Containers With Bind Mounts",
+      "Database Passwords in Containers"
+    ]
+  },
+  {
+    "heading": "Making It Easier with Docker Compose: The Multi-Container Tool",
+    "videoLabels": [
+      "Docker Compose and The docker-compose.yml File",
+      "Trying Out Basic Compose Commands",
+      "Assignment: Build a Compose File For a Multi-Container Service",
+      "Assignment Answers: Build a Compose File For a Multi-Container Service",
+      "Adding Image Building to Compose Files",
+      "Assignment: Compose For Run-Time Image Building and Multi-Container Development",
+      "Assignment Answers: Compose For Run-Time Image Building and Multi-Container Dev",
+      "Quiz on Docker Compose"
+    ]
+  },
+  {
+    "heading": "Swarm Intro and Creating a 3-Node Swarm Cluster",
+    "videoLabels": [
+      "Swarm Mode: Built-In Orchestration",
+      "Create Your First Service and Scale It Locally",
+      "UI Change For Service Create/Update",
+      "Docker Machine Bug With Swarm",
+      "Creating a 3-Node Swarm Cluster",
+      "Quiz on Swarm Mode Basics"
+    ]
+  },
+  {
+    "heading": "Swarm Basic Features and How to Use Them In Your Workflow",
+    "videoLabels": [
+      "Scaling Out with Overlay Networking",
+      "Scaling Out with Routing Mesh",
+      "Quiz on Docker Swarm Basics",
+      "Assignment: Create A Multi-Service Multi-Node Web App",
+      "Assignment Answers: Create A Multi-Service Multi-Node Web App",
+      "Swarm Stacks and Production Grade Compose",
+      "Secrets Storage for Swarm: Protecting Your Environment Variables",
+      "Using Secrets in Swarm Services",
+      "Using Secrets with Swarm Stacks",
+      "Assignment: Create A Stack with Secrets and Deploy",
+      "Assignment Answers: Create A Stack with Secrets and Deploy"
+    ]
+  },
+  {
+    "heading": "Swarm App Lifecycle",
+    "videoLabels": [
+      "Using Secrets With Local Docker Compose",
+      "Full App Lifecycle: Dev, Build and Deploy With a Single Compose Design",
+      "Service Updates: Changing Things In Flight",
+      "Healthchecks in Dockerfiles",
+      "Quiz on Swarm App Lifecycle",
+      "Info on Swarm Mastery"
+    ]
+  },
+  {
+    "heading": "Container Registries: Image Storage and Distribution",
+    "videoLabels": [
+      "Docker Hub: Digging Deeper",
+      "Understanding Docker Registry",
+      "Run a Private Docker Registry",
+      "Assignment: Secure Docker Registry With TLS and Authentication",
+      "Using Docker Registry With Swarm",
+      "Third Party Image Registries",
+      "Quiz on Container Registries"
+    ]
+  },
+  {
+    "heading": "Docker in Production",
+    "videoLabels": [
+      "My DockerCon Talk on Docker and Swarm in Production",
+      "The Future of Swarm",
+      "Swarm Raft Quorum and Recovery (Laura Frank from DockerCon 2017)"
+    ]
+  },
+  {
+    "heading": "The What and Why of Kubernetes",
+    "videoLabels": [
+      "Kubernetes Intro",
+      "What Is Kubernetes",
+      "Why Kubernetes",
+      "Kubernetes vs Swarm"
+    ]
+  },
+  {
+    "heading": "Kubernetes Install And Your First Pods",
+    "videoLabels": [
+      "Section Intro",
+      "Kubernetes Architecture Terminology",
+      "Kubernetes Local Install",
+      "Install Tips for minikube and MicroK8s",
+      "Kubernetes Container Abstractions",
+      "Kubectl run, create, and apply",
+      "Our First Pod With kubectl run",
+      "1.18 Changes to Kubectl Run",
+      "Scaling ReplicaSets",
+      "Inspecting Kubernetes Objects"
+    ]
+  },
+  {
+    "heading": "Exposing Kubernetes Ports",
+    "videoLabels": [
+      "Section Intro",
+      "Service Types",
+      "Creating a ClusterIP Service",
+      "Creating a NodePort and LoadBalancer Service",
+      "Kubernetes Services DNS"
+    ]
+  },
+  {
+    "heading": "Kubernetes Management Techniques",
+    "videoLabels": [
+      "Section Intro",
+      "Run, Expose, and Create Generators",
+      "The Future of Kubectl Run",
+      "Imperative vs. Declarative",
+      "Three Management Approaches"
+    ]
+  },
+  {
+    "heading": "Moving to Declarative Kubernetes YAML",
+    "videoLabels": [
+      "Section Intro",
+      "Kubectl apply",
+      "Kubernetes Configuration YAML",
+      "Building Your YAML Files",
+      "Building Your YAML Spec",
+      "Dry Runs and Diff's",
+      "Labels and Label Selectors"
+    ]
+  },
+  {
+    "heading": "Your Next Steps and The Future of Kubernetes",
+    "videoLabels": [
+      "Section Intro",
+      "Storage in Kubernetes",
+      "Ingress",
+      "CRD's and The Operator Pattern",
+      "Higher Deployment Abstractions",
+      "Kubernetes Dashboard",
+      "Namespaces and Context",
+      "Future of Kubernetes"
+    ]
+  },
+  {
+    "heading": "Docker Security Good Defaults and Tools",
+    "videoLabels": [
+      "Section Intro: Top 10 Security Steps for Docker",
+      "Docker Cgroups and Namespaces",
+      "Docker Engine's Out-Of-The-Box Security Features",
+      "Docker Bench, The Host Configuration Scanner",
+      "Using USER in Dockerfiles to Avoid Running as Root",
+      "Docker User Namespaces for Extra Host Security",
+      "Code Repo and Image Scanning for CVE's",
+      "Sysdig Falco, Content Trust, and Custom Seccomp and AppArmor Profiles",
+      "Docker Rootless Mode",
+      "The Security Top 10 Differences for Windows Containers",
+      "What are Distroless Images?",
+      "Are Swarm and Kubernetes Secrets Really Secure?"
+    ]
+  },
+  {
+    "heading": "Docker 19.03 Release New Features",
+    "videoLabels": [
+      "Section Intro",
+      "BuildKit and the new Docker buildx CLI",
+      "Docker Context and SSH Connections",
+      "Docker App and Image Packaging of Compose YAML",
+      "Rootless Mode in Docker Engine",
+      "Docker Desktop Enterprise",
+      "Docker Desktop Enterprise Clusters"
+    ]
+  },
+  {
+    "heading": "DevOps and Docker Clips",
+    "videoLabels": [
+      "DevOps and Docker Talk Intro",
+      "Alpine Base Images. Are They Really More Secure?",
+      "Dealing With Non-root Users In Containers and File Permissions",
+      "Apache Web Server Design. Many Sites In One Container, or Many Containers?",
+      "Docker Network IP Subnet Conflicts with Outside Networks",
+      "Raspberry Pi Development in Docker",
+      "Windows 10 Containers Get Process Isolation",
+      "Should You Move Postgres to Containers",
+      "Using Supervisor To Run Multiple Apps In A Container",
+      "Should You Use Docker Compose or Swarm For A Single Server?",
+      "Docker Environment Configs, Variables, and Entrypoints",
+      "Java and JBoss in Containers. One .war File Per Container?",
+      "TLS in Dev and Prod with Docker",
+      "Multiple Docker Images From One Git Repo",
+      "Docker + ARM, Using Raspberry Pi or AWS A1 Instances with Docker",
+      "Docker and Swarm RBAC Options",
+      "ENTRYPOINT vs. CMD, what's the difference in Dockerfiles",
+      "How to Use External Storage in Docker",
+      "Can I Turn a VM into a Container?",
+      "Startup Order With Multi-Container Apps"
+    ]
+  },
+  {
+    "heading": "Dockerfile and Compose File Reviews",
+    "videoLabels": [
+      "Section Intro - My Reviews Of Your Dockerfiles",
+      "Real World PHP Dockerfile Review",
+      "Real World PHP, Apache, and Alpine Dockerfile Review",
+      "Real World PHP and FPM Dockerfile Review",
+      "Real World Elasticsearch Compose Stack File"
+    ]
+  },
+  {
+    "heading": "Extra's, Common Questions, and Resources",
+    "videoLabels": [
+      "Node.js Good Defaults For Docker",
+      "PHP and Docker Good Defaults Project Template",
+      "About the DCA (Docker Certificated Associate)",
+      "Bonus"
+    ]
+  }
+]
